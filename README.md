@@ -13,3 +13,6 @@ This repository contains all the dataset that needs to be preprocesssed in order
 - **`News_Classifier.py`**  
   The main script that runs the training process.  
   It loads the preprocessed data, trains the model, uses early stopping, and saves the best model at the end.
+
+- **best_model_embed.pth**  
+  The best model saved during training. This file corresponds to the model that achieved the lowest validation loss.
